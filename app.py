@@ -123,7 +123,8 @@ def page4():
 page_names_to_funcs = {
   "Contenido del Curso": Home,
   "Actividad": page2,
-  "Consultas": page3,
+  "Asistencia": page3
+  "Consultas": page4,
 }
 
 selected_page = st.sidebar.selectbox("Selecciona una página", page_names_to_funcs.keys())
