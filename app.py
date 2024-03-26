@@ -61,7 +61,7 @@ def page2():
     st.write('''Fecha de entrega: No aplica''')
     st.write ('''Repasar material introductorio sobre python en Google Colab''')
     st.write('Puede ser útil')
-    st.write(pd.DataFrame(['https://github.com/inefable12/CQCPE_2023_jesus/blob/main/1_ABC_Python_github.ipynb', 'https://github.com/inefable12/balanceo_rxn_combustion_espanol'])
+    st.write(pd.DataFrame(['https://github.com/inefable12/CQCPE_2023_jesus/blob/main/1_ABC_Python_github.ipynb', 'https://github.com/inefable12/balanceo_rxn_combustion_espanol']))
   
     st.info('Grupal')
     st.write('''Tiempo estimado: 1 hora''')
@@ -76,11 +76,6 @@ def page3():
    
   st.link_button("Github", "https://github.com/inefable12/Quimica_1_FIA_UNI/")
   
-  #st.write('''S.''')
-
-  #st.write('''texto1''')
-  #st.markdown("<h1 style='text-align: center; color: purple;'>Texto 2</h1>", unsafe_allow_html=True)
-
 ##
 page_names_to_funcs = {
   "Contenido del Curso": Home,
