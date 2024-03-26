@@ -46,15 +46,11 @@ def Home():
     total3, total4 = st.columns(2, gap='large')
     with total3:
         st.info('Unidad 3: CINÉTICA QUÍMICA')
-        st.write('''Texto informativo.''')
+        st.write('''Definición, generalidades / Cálculo de la velocidad de una reacción química / Velocidades de reacción de orden cero, de 1° y 2º orden, ejercicios / Cálculo de la vida media de una reacción química / Factores que modifican la velocidad de reacción (temperatura, presión, concentración y catalizador).''')
         
     with total4:
         st.info('Unidad 4: EQUILIBRIO QUÍMICO ')
-        st.write (pd.DataFrame({'Tipo': ['A ',
-                                          'B ', 
-                                          'C '], 
-                                'Inicio': ["D", "E", 
-                                           "F"]}))
+        st.write ('''Definición, características / Cálculo de la constante de equilibrio químico Kp y Kc / Relación de las constantes Kp y Kc / Grado de reacción (a) y cociente de reacción (Q) / relaciones entre 𝛼, Q y Kc 1 teoría de ácidos y bases / teoría de constante de acides y basicidad, Ka y Kb, teoría de auto- ionización del agua, Kw / Potencial del ión hidrogeno (pH), problemas / hidrólisis (Kh), soluciones buffer o tampón /cálculo del pH / Producto de solubílidad (Kps), efecto del ion común, solubilidad molar/ precipitación selectiva de iones (cationes y aniones).'''))
 
     #image = Image.open("DALL·E 2022-12-26 21.10.51 - Humberto Maturana head for 3D printing.png")
     #st.image(image, caption='Personaje ilustrado por IA para impresión 3D')
