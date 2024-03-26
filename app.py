@@ -65,7 +65,7 @@ def page2():
     st.info('Grupal')
     st.write('''Tiempo estimado: 1 hora''')
     st.write('''Por grupo resolver los ejercicios asignados (capítulo 3 de Brown) empleando python desde Google Colab.''')
-    st.write('''Presentación: Enviar a delegado(a) el enlace del archivo: "nombre_grupo.ipynb"''')  
+    st.write('''Presentación: Enviar al delegado(a) el enlace al archivo: "nombre_grupo.ipynb"''')  
     st.write('''Fecha máxima de entrega: Domingo 31/03/2024 a las 23:59''')
     
 
