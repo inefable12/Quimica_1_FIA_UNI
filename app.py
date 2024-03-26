@@ -5,7 +5,7 @@ from PIL import Image
 #import matplotlib.pyplot as plt
 
 ##############
-st.sidebar.image("",
+st.sidebar.image("fondo_quimica1.png",
                  caption="P")
 
 ##############Pagina 1##############
@@ -37,7 +37,18 @@ def Home():
                                 'Inicio': ["D", "E", 
                                            "F"]}))
     
-
+    total3, total4 = st.columns(2, gap='large')
+    with total3:
+        st.info('Titulo1')
+        st.write('''Texto informativo.''')
+        
+    with total4:
+        st.info('P.')
+        st.write (pd.DataFrame({'Tipo': ['A ',
+                                          'B ', 
+                                          'C '], 
+                                'Inicio': ["D", "E", 
+                                           "F"]}))
     #image = Image.open("DALL·E 2022-12-26 21.10.51 - Humberto Maturana head for 3D printing.png")
     #st.image(image, caption='Personaje ilustrado por IA para impresión 3D')
     
