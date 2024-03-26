@@ -6,15 +6,12 @@ from PIL import Image
 
 ##############
 st.sidebar.image("fondo_quimica1.png",
-                 caption="P")
+                 caption="Jesus Alvarado H, MSc, PhDc")
 
 ##############Pagina 1##############
 def Home():
     st.markdown("# ")
-    #st.markdown("<h1 style='text-align: center; color: red;'>Juega a crear nuevas historias</h1>", unsafe_allow_html=True)
-    st.sidebar.markdown("# Contenido del curso Química I")
-    #image = Image.open("elprincipito.jpeg")
-    #st.image(image, caption='El principito en Machupichu')
+    st.sidebar.markdown("# Química I")
 
     total1, total2 = st.columns(2, gap='large')
     with total1:
@@ -52,19 +49,24 @@ def Home():
         st.info('Unidad 4: EQUILIBRIO QUÍMICO ')
         st.write ('''Definición, características / Cálculo de la constante de equilibrio químico Kp y Kc / Relación de las constantes Kp y Kc / Grado de reacción (a) y cociente de reacción (Q) / relaciones entre 𝛼, Q y Kc 1 teoría de ácidos y bases / teoría de constante de acides y basicidad, Ka y Kb, teoría de auto- ionización del agua, Kw / Potencial del ión hidrogeno (pH), problemas / hidrólisis (Kh), soluciones buffer o tampón /cálculo del pH / Producto de solubílidad (Kps), efecto del ion común, solubilidad molar/ precipitación selectiva de iones (cationes y aniones).''')
 
-    #image = Image.open("DALL·E 2022-12-26 21.10.51 - Humberto Maturana head for 3D printing.png")
-    #st.image(image, caption='Personaje ilustrado por IA para impresión 3D')
+    
     
 ##############Pagina 2##############
 def page2():
     st.markdown("# Actividad: 25/03/2024")
-    st.sidebar.markdown("# M")
+    st.sidebar.markdown("# ")
     
     st.info('Individual')
     st.write('''Tiempo estimado: 1 hora''')
+    st.write('''Fecha de entrega: No aplica''')
     st.write ('''Repasar material introductorio sobre python en Google Colab''')
-    st.write('Sugerencia: Cargar el archivo contenido en https://github.com/inefable12/CQCPE_2023_jesus/blob/main/1_ABC_Python_github.ipynb a Google Drive y abrirlo desde ahí')
-
+    st.write('Sugerencia: https://github.com/inefable12/CQCPE_2023_jesus/blob/main/1_ABC_Python_github.ipynb')
+  
+    st.info('Grupal')
+    st.write('''Tiempo estimado: 1 hora''')
+    st.write('''Por grupo resolver los ejercicios asignados (capítulo 3 de Brown) empleando python desde Google Colab. Se enviará''')
+    st.write('''Fecha máxima de entrega: Domingo 31/03/2024 a las 23:59''')
+    
 
 ##
 def page3():
