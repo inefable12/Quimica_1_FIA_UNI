@@ -18,7 +18,7 @@ def Home():
 
     total1, total2 = st.columns(2, gap='large')
     with total1:
-        st.info('Titulo1')
+        st.info('Unidad 1: REACCIONES QUÍMICAS')
         st.write('''Generalidades sobre las reacciones químicas y ecuaciones químicas. 
                     Clasificación de las reacciones químicas. 
                     Reacciones endotérmicas y exotérmicas, cálculo de la entalpía de la reacción, 
@@ -30,25 +30,32 @@ def Home():
                     ideales, masa equivalente.''')
         
     with total2:
-        st.info('P.')
-        st.write (pd.DataFrame({'Tipo': ['A ',
-                                          'B ', 
-                                          'C '], 
-                                'Inicio': ["D", "E", 
-                                           "F"]}))
+        st.info('Unidad 2: SOLUCIONES')
+        st.write (pd.DataFrame({'Tema': ['Componentes y clasificación, ley de número equivalente',
+                                          'Unidades de concentración, fracción molar, Molaridad', 
+                                          'Normalidad y Molalidad, partes por millón',
+                                          'Método de dilución y mezcla de soluciones',
+                                          'problemas de estequiometria de soluciones',
+                                          'titulación acido – base, uso del indicador',
+                                          'Propiedades coligativas de las soluciones, ecuación de Vant Hoff'
+                                        ], 
+                                'Fecha': ["Semana", "Semana", 
+                                           "Semana","Semana", "Semana", 
+                                           "Semana","Semana",]},index_col=0))
     
     total3, total4 = st.columns(2, gap='large')
     with total3:
-        st.info('Titulo1')
+        st.info('Unidad 3: CINÉTICA QUÍMICA')
         st.write('''Texto informativo.''')
         
     with total4:
-        st.info('P.')
+        st.info('Unidad 4: EQUILIBRIO QUÍMICO ')
         st.write (pd.DataFrame({'Tipo': ['A ',
                                           'B ', 
                                           'C '], 
                                 'Inicio': ["D", "E", 
                                            "F"]}))
+
     #image = Image.open("DALL·E 2022-12-26 21.10.51 - Humberto Maturana head for 3D printing.png")
     #st.image(image, caption='Personaje ilustrado por IA para impresión 3D')
     
