@@ -60,7 +60,8 @@ def page2():
     st.write('''Tiempo estimado: 1 hora''')
     st.write('''Fecha de entrega: No aplica''')
     st.write ('''Repasar material introductorio sobre python en Google Colab''')
-    st.write('Puede ser útil: https://github.com/inefable12/CQCPE_2023_jesus/blob/main/1_ABC_Python_github.ipynb, https://github.com/inefable12/balanceo_rxn_combustion_espanol')
+    st.write('Puede ser útil')
+    st.write(pd.DataFrame(['https://github.com/inefable12/CQCPE_2023_jesus/blob/main/1_ABC_Python_github.ipynb', 'https://github.com/inefable12/balanceo_rxn_combustion_espanol')
   
     st.info('Grupal')
     st.write('''Tiempo estimado: 1 hora''')
