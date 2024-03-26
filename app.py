@@ -37,12 +37,12 @@ def Home():
                                 'Inicio': ["D", "E", 
                                            "F"]}))
     
-    total1a, total2a = st.columns(2, gap='large')
-    with total1a:
+    total3, total4 = st.columns(2, gap='large')
+    with total3:
         st.info('Titulo1')
         st.write('''Texto informativo.''')
         
-    with total2a:
+    with total4:
         st.info('P.')
         st.write (pd.DataFrame({'Tipo': ['A ',
                                           'B ', 
@@ -57,8 +57,8 @@ def page2():
     st.markdown("# Ta")
     st.sidebar.markdown("# M")
     
-    total3, total4 = st.columns(2, gap='large')
-    with total3:
+    total5, total6 = st.columns(2, gap='large')
+    with total5:
         st.info('Curso virtual (8 horas)')
         st.write('''E''')
         st.write (pd.DataFrame({'Temas': ['P',
@@ -67,7 +67,7 @@ def page2():
                         'Horas': ["2", "2", 
                                    "2", "2"]}))
         st.write('N.')
-    with total4:
+    with total6:
         st.info('M')
         st.write('''P''')
         st.write('''C.''') 
