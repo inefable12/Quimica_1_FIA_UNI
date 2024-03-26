@@ -10,7 +10,7 @@ st.sidebar.image("cientifica_en_lab.png",
 
 ##############Pagina 1##############
 def Home():
-    st.markdown("# Juega a crear nuevas historias")
+    st.markdown("# ")
     #st.markdown("<h1 style='text-align: center; color: red;'>Juega a crear nuevas historias</h1>", unsafe_allow_html=True)
     st.sidebar.markdown("# El principito en Machupichu")
     image = Image.open("elprincipito.jpeg")
