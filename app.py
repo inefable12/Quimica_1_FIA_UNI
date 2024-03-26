@@ -19,7 +19,15 @@ def Home():
     total1, total2 = st.columns(2, gap='large')
     with total1:
         st.info('Titulo1')
-        st.write('''Generalidades sobre las reacciones químicas y ecuaciones químicas / clasificación de las reacciones químicas / reacciones endotérmicas y exotérmicas, cálculo de la entalpía de la reacción, entalpía de reacción estándar, ejercicios / Métodos de balanceo de la reacciones químicas (redox – ion electrón) / Estequiometria I y las leyes ponderales, ley de conservación de la masa y de las proporciones definidas, problemas / Estequiometría II, ley de las relaciones sencillas, problemas con gases ideales, masa equivalente.''')
+        st.write('''Generalidades sobre las reacciones químicas y ecuaciones químicas. 
+                    Clasificación de las reacciones químicas. 
+                    Reacciones endotérmicas y exotérmicas, cálculo de la entalpía de la reacción, 
+                    entalpía de reacción estándar, ejercicios.
+                    Métodos de balanceo de la reacciones químicas (redox – ion electrón).
+                    Estequiometria I y las leyes ponderales, ley de conservación de la masa y de 
+                    las proporciones definidas, problemas. 
+                    Estequiometría II, ley de las relaciones sencillas, problemas con gases 
+                    ideales, masa equivalente.''')
         
     with total2:
         st.info('P.')
