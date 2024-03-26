@@ -64,15 +64,14 @@ def page2():
   
     st.info('Grupal')
     st.write('''Tiempo estimado: 1 hora''')
-    st.write('''Por grupo resolver los ejercicios asignados (capítulo 3 de Brown) empleando python desde Google Colab. Se enviará''')
+    st.write('''Por grupo resolver los ejercicios asignados (capítulo 3 de Brown) empleando python desde Google Colab.''')
+    st.write('''Presentación: Enviar a delegado(a) el enlace del archivo: "nombre_grupo.ipynb"''')  
     st.write('''Fecha máxima de entrega: Domingo 31/03/2024 a las 23:59''')
     
 
 ##
 def page3():
   st.header('Más información', divider='rainbow')
-  
-  st.link_button("Youtube", "https://www.youtube.com/channel/UCm6lcnfmNS2stsUYVvrFOzg")
    
   st.link_button("Github", "https://github.com/inefable12")
   
