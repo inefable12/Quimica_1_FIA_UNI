@@ -57,35 +57,13 @@ def Home():
     
 ##############Pagina 2##############
 def page2():
-    st.markdown("# Ta")
+    st.markdown("# Actividad: 25/03/2024")
     st.sidebar.markdown("# M")
     
-    total5, total6 = st.columns(2, gap='large')
-    with total5:
-        st.info('Curso virtual (8 horas)')
-        st.write('''E''')
-        st.write (pd.DataFrame({'Temas': ['P',
-                                  'P1', 
-                                  'L','I'], 
-                        'Horas': ["2", "2", 
-                                   "2", "2"]}))
-        st.write('N.')
-    with total6:
-        st.info('M')
-        st.write('''P''')
-        st.write('''C.''') 
-        st.write('''C.''')
-        st.write('''E''')
-        st.write (pd.DataFrame({'Modalidad': ['General',
-                                          'Estudiantes', 
-                                          'Corporativo (grupos de 4)'], 
-                                'Inversión': ["S", "S0", 
-                                           "S1"]}))
-    #image = Image.open("alberteinstein.jpeg")
-    #st.image(image, caption='¿Recuerdas cuando Albert Einstein visitó Machupichu? Despierta historias alucinantes a través de la generación de imágenes con IA.')
-  
-    #image = Image.open("logPann_red.png")
-    #st.image(image, caption='Descubre cómo las redes neuronales artificiales están revolucionando diversas áreas del conocimiento')
+    st.info('Individual')
+    st.write('''Tiempo estimado: 1 hora''')
+    st.write ('''Repasar material introductorio sobre python en Google Colab''')
+    st.write('Sugerencia: Cargar el archivo contenido en https://github.com/inefable12/CQCPE_2023_jesus/blob/main/1_ABC_Python_github.ipynb a Google Drive y abrirlo desde ahí')
 
 
 ##
@@ -96,10 +74,10 @@ def page3():
    
   st.link_button("Github", "https://github.com/inefable12")
   
-  st.write('''S.''')
+  #st.write('''S.''')
 
-  st.write('''texto1''')
-  st.markdown("<h1 style='text-align: center; color: purple;'>Texto 2</h1>", unsafe_allow_html=True)
+  #st.write('''texto1''')
+  #st.markdown("<h1 style='text-align: center; color: purple;'>Texto 2</h1>", unsafe_allow_html=True)
 
 ##
 page_names_to_funcs = {
