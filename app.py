@@ -5,7 +5,7 @@ from PIL import Image
 #import matplotlib.pyplot as plt
 
 ##############
-st.sidebar.image("cientifica_en_lab.png",
+st.sidebar.image("",
                  caption="P")
 
 ##############Pagina 1##############
@@ -19,9 +19,22 @@ def Home():
     total1, total2 = st.columns(2, gap='large')
     with total1:
         st.info('Titulo1')
-        st.write('''Texto informativo.''')
+        st.write('''Generalidades sobre las reacciones químicas y ecuaciones químicas / clasificación de las reacciones químicas / reacciones endotérmicas y exotérmicas, cálculo de la entalpía de la reacción, entalpía de reacción estándar, ejercicios / Métodos de balanceo de la reacciones químicas (redox – ion electrón) / Estequiometria I y las leyes ponderales, ley de conservación de la masa y de las proporciones definidas, problemas / Estequiometría II, ley de las relaciones sencillas, problemas con gases ideales, masa equivalente.''')
         
     with total2:
+        st.info('P.')
+        st.write (pd.DataFrame({'Tipo': ['A ',
+                                          'B ', 
+                                          'C '], 
+                                'Inicio': ["D", "E", 
+                                           "F"]}))
+    
+    total1a, total2a = st.columns(2, gap='large')
+    with total1a:
+        st.info('Titulo1')
+        st.write('''Texto informativo.''')
+        
+    with total2a:
         st.info('P.')
         st.write (pd.DataFrame({'Tipo': ['A ',
                                           'B ', 
