@@ -56,7 +56,7 @@ def page2():
                                           'Estudiantes', 
                                           'Corporativo (grupos de 4)'], 
                                 'Inversión': ["S", "S0", 
-                                           "S/ 1"]}))
+                                           "S1"]}))
     #image = Image.open("alberteinstein.jpeg")
     #st.image(image, caption='¿Recuerdas cuando Albert Einstein visitó Machupichu? Despierta historias alucinantes a través de la generación de imágenes con IA.')
   
@@ -74,8 +74,8 @@ def page3():
   
   st.write('''S.''')
 
-  #st.write('''Puquna STEAM - 2024''')
-  st.markdown("<h1 style='text-align: center; color: purple;'>Puquna STEAM - 2024</h1>", unsafe_allow_html=True)
+  st.write('''texto1''')
+  st.markdown("<h1 style='text-align: center; color: purple;'>Texto 2</h1>", unsafe_allow_html=True)
 
 ##
 page_names_to_funcs = {
