@@ -54,7 +54,7 @@ def Home():
 ##############Pagina 2##############
 def page2():
     st.markdown("# Actividad: 25/03/2024")
-    st.sidebar.markdown("# ")
+    st.sidebar.markdown("# Deadline: 31/03/2024")
     
     st.info('Individual')
     st.write('''Tiempo estimado: 1 hora''')
