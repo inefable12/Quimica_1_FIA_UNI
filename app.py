@@ -22,7 +22,7 @@ def Home():
         st.write('''Texto informativo.''')
         
     with total2:
-        st.info('Pedidos a inefable12@gmail o 957787559')
+        st.info('P.')
         st.write (pd.DataFrame({'Tipo': ['A ',
                                           'B ', 
                                           'C '], 
