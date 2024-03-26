@@ -41,7 +41,7 @@ def Home():
                                         ], 
                                 'Fecha': ["Semana", "Semana", 
                                            "Semana","Semana", "Semana", 
-                                           "Semana","Semana",]},index_col=0))
+                                           "Semana","Semana",]}))
     
     total3, total4 = st.columns(2, gap='large')
     with total3:
