@@ -73,7 +73,7 @@ def page2():
 def page3():
   st.header('Más información', divider='rainbow')
    
-  st.link_button("Github", "https://github.com/inefable12")
+  st.link_button("Github", "https://github.com/inefable12/Quimica_1_FIA_UNI/")
   
   #st.write('''S.''')
 
