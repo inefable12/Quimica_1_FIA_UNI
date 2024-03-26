@@ -6,7 +6,7 @@ from PIL import Image
 
 ##############
 st.sidebar.image("cientifica_en_lab.png",
-                 caption="Portada creada con IA")
+                 caption="P")
 
 ##############Pagina 1##############
 def Home():
@@ -79,9 +79,9 @@ def page3():
 
 ##
 page_names_to_funcs = {
-  "El principito": Home,
-  "Cursos": page2,
-  "Nuestras redes": page3,
+  "Contenido del Curso": Home,
+  "Actividad": page2,
+  "Consultas": page3,
 }
 
 selected_page = st.sidebar.selectbox("Selecciona una página", page_names_to_funcs.keys())
