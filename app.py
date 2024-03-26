@@ -5,7 +5,7 @@ from PIL import Image
 #import matplotlib.pyplot as plt
 
 ##############
-st.sidebar.image("stabledifussion777.png",
+st.sidebar.image("cientifica_en_lab.png",
                  caption="Portada creada con IA")
 
 ##############Pagina 1##############
